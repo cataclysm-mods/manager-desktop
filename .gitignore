@@ -1,0 +1,9 @@
+# Yarn 2 with zero-installs and PnP
+# Documentation here: https://yarnpkg.com/features/zero-installs
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+!.yarn/cache
