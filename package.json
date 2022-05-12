@@ -1,4 +1,23 @@
 {
-  "name": "manager-desktop",
-  "packageManager": "yarn@3.2.0"
+  "name": "tauri-app",
+  "packageManager": "yarn@3.2.0",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri"
+  },
+  "dependencies": {
+    "@tauri-apps/api": "^1.0.0-rc.5",
+    "vue": "^3.2.33"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.0.0-rc.10",
+    "@vitejs/plugin-vue": "^2.3.3",
+    "typescript": "^4.6.4",
+    "vite": "^2.9.9",
+    "vue-tsc": "^0.34.13"
+  }
 }
